@@ -1,0 +1,18 @@
+select
+    case
+        when player.playerlevel between 1 and 9 then '0'
+        when player.playerlevel between 10 and 19 then '10'
+        when player.playerlevel between 20 and 29 then '20'
+    end as levelgroup,
+    AVG(item.count) as avgcount
+from
+    player
+    join item on player.playerid=item.playerid
+where
+    item.itemid=100
+group by
+    case
+        when player.playerlevel between 1 and 9 then '0'
+        when player.playerlevel between 10 and 19 then '10'
+        when player.playerlevel between 20 and 29 then '20'
+    end;

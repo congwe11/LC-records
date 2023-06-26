@@ -1,6 +1,4 @@
-package code.leetcode.other;
-
-import java.util.HashMap;
+package code.other;
 
 /**
  * @author Congw

@@ -1,4 +1,4 @@
-package code.leetcode.other;
+package code.other;
 
 /**
  * @author Congw
