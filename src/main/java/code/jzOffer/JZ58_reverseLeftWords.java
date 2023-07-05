@@ -6,12 +6,11 @@ package code.jzOffer;
  */
 public class JZ58_reverseLeftWords {
     public String reverseLeftWords(String s, int n) {
-        // abcdef -> cdefab
-        // fedcba - cdefab
+        // abcdef -> bafedc -> cdefab
+        // 先反转 [0,n-1], 再反转 [n, s.length - 1];
 
         char[] ch = s.toCharArray();
-        // 1 先反转整个字符串
-        // 2 在分别反转 前后两个字符串
+
         int l = 0, r = ch.length - 1;
         swap(ch, l, r);
 
@@ -37,7 +36,6 @@ public class JZ58_reverseLeftWords {
 
     public static void main(String[] args) {
         JZ58_reverseLeftWords s = new JZ58_reverseLeftWords();
-
         s.reverseLeftWords("abcdefg", 2);
 
     }
