@@ -8,14 +8,14 @@ import java.util.List;
  * 2023/7/4 16:51
  */
 public class LC98_isValidBST {
-    TreeNode max;
+    TreeNode pre;
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
 
         boolean left = isValidBST(root.left);
 
-        if (max != null && max.val >= root.val) return false;
-        max = root;
+        if (pre != null && pre.val >= root.val) return false;
+        pre = root;
 
         boolean right = isValidBST(root.right);
 
