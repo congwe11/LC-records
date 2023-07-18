@@ -1,10 +1,69 @@
 | 题目 | 标签 | 解法 |
 | --- | --- | --- |
 | [1851. 包含每个查询的最小区间](https://leetcode.cn/problems/minimum-interval-to-include-each-query/description/) |`数组`  `优先队列` `排序` `离线查询`| ... |
-| [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/) |`二叉树`  `优先队列` `排序` `离线查询`| ... |
+| [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/) |`二叉树`  `中序` `前节点`| ... |
+| [77. 组合](https://leetcode.cn/problems/combinations/submissions/) |`数组`  `组合` `回溯`| ... |
 
 
+## 回溯
+**回溯模板**
+```Java
+// 回溯模板
+void backtracking(参数) {
+    if (终止条件) {
+        存放结果;
+        return;
+    }
 
+    for (选择：本层集合中元素（树中节点孩子的数量就是集合的大小）) {
+        处理节点;
+        backtracking(路径，选择列表); // 递归
+        回溯，撤销处理结果;
+    }
+}
+
+```
+### 77. 组合
+回溯三部曲：
+
+- 递归函数的返回值和参数
+- 回溯函数的终止条件
+- 单层搜索的过程
+想象一个树形结果
+
+参数中需要一个`startIndex`确定每层遍历的起始位置
+终止条件，当子列表长度满足时记录结果并返回
+依次遍历每一层，`for (int i=startIndex; i<n; i++) : backTracking(n, k, i + 1)`
+
+剪枝：
+- 已选择元素个数： path.size()
+- 还需要：k - path.size()
+- 所以集合 n 中 至多的要从 n - path.size() + 1 开始遍历, （包括起始节点）
+
+```Java
+class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
+    
+    public List<List<Integer>> combine(int n, int k) {
+        backTracking(n, k, 1);
+        return res;
+    }
+
+    public void backTracking(int n, int k, int startIndex) {
+        if (path.size() == k) {
+            res.add(new ArrayList<>(path));
+            return;
+        }
+
+        for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) {
+            path.add(i);
+            backTracking(n, k, i + 1);
+            path.remove(path.size() - 1);
+        }
+    }
+}
+```
 
 ```Java
 class Solution {
