@@ -2,9 +2,12 @@
 
 | 题目 | 标签 | 解法 |
 | --- | --- | --- |
+| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) | `数组` `动态规划` | [解法](每日一题/lc53_918_环形子数组的最大和.md) |
+| [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/) | `数组` `动态规划` `前缀和`| [解法](每日一题/lc53_918_环形子数组的最大和.md) |
 | [415. 字符串相加](https://leetcode.cn/problems/add-strings/description/) | `字符串` `加法模拟` | ...  |
 | [1851. 包含每个查询的最小区间](https://leetcode.cn/problems/minimum-interval-to-include-each-query/description/) |`数组`  `优先队列` `排序` `离线查询`| [解法](每日一题/lc1851_包含每个查询的最小区间.md) |
 | [874. 模拟行走机器人](https://leetcode.cn/problems/walking-robot-simulation/) | `哈希表` `模拟` `方向表示`| [解法](每日一题/lc874_模拟行走机器人.md) |
+
 --- 
 
 ## 代码随想录
