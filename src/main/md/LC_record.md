@@ -2,6 +2,11 @@
 
 | 题目 | 标签 | 解法 |
 | --- | --- | --- |
+| []() |`模拟`| ... |
+| []() |`模拟`| ... |
+| []() |`模拟`| ... |
+| []() |`模拟`| ... |
+| [1499. 满足不等式的最大值](https://leetcode.cn/problems/max-value-of-equation/description/) | `堆` `双端队列` | [解法](每日一题/lc1499_满足不等式的最大值.md) |
 | [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) | `数组` `动态规划` | [解法](每日一题/lc53_918_环形子数组的最大和.md) |
 | [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/) | `数组` `动态规划` `前缀和`| [解法](每日一题/lc53_918_环形子数组的最大和.md) |
 | [415. 字符串相加](https://leetcode.cn/problems/add-strings/description/) | `字符串` `加法模拟` | ...  |
