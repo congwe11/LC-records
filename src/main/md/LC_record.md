@@ -4,8 +4,8 @@
 | --- | --- | --- |
 | []() |`模拟`| ... |
 | []() |`模拟`| ... |
-| []() |`模拟`| ... |
-| []() |`模拟`| ... |
+| [771. 宝石与石头](https://leetcode.cn/problems/jewels-and-stones/) |`哈希集合`| ... |
+| [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/) |`单调栈`| ... |
 | [1499. 满足不等式的最大值](https://leetcode.cn/problems/max-value-of-equation/description/) | `堆` `双端队列` | [解法](每日一题/lc1499_满足不等式的最大值.md) |
 | [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) | `数组` `动态规划` | [解法](每日一题/lc53_918_环形子数组的最大和.md) |
 | [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/) | `数组` `动态规划` `前缀和`| [解法](每日一题/lc53_918_环形子数组的最大和.md) |
@@ -28,11 +28,10 @@
 | [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |`组合` `回溯`| 见77 |
 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/) |`组合` `回溯`| 见77 |
 | [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/) |`组合` `回溯`| 见77 |
-| []() |`模拟`| ... |
-| []() |`模拟`| ... |
-| []() |`模拟`| ... |
-| []() |`模拟`| ... |
-| []() |`模拟`| ... |
+| [131. 分割回文串](https://leetcode.cn/problems/palindrome-partitioning/) |`回文` `回溯`| [解法](代码随想录/回溯/lc131_分割回文串.md) |
+| [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/) |`字符串` `回溯`| [解法](代码随想录/回溯/lc93_复原%20IP%20地址.md) |
+| [78. 子集](https://leetcode.cn/problems/subsets/description/) |`回溯`| [解法](代码随想录/回溯/lc78_90_子集.md) |
+| [90. 子集 II](https://leetcode.cn/problems/subsets-ii/description/) |`去重` `回溯`| 同78 |
 | []() |`模拟`| ... |
 | []() |`模拟`| ... |
 | []() |`模拟`| ... |
