@@ -1,7 +1,6 @@
 ## 93. 复原 IP 地址
 
-
-```java
+```Java
 class Solution {
     List<String> res = new ArrayList<>();
     // StringBuilder strB = new StringBuilder();
@@ -52,4 +51,53 @@ class Solution {
         return true;
     }
 }
+```
+
+python
+```Python
+class Solution:
+    def restoreIpAddresses(self, s: str) -> List[str]:
+
+        res = []
+
+        self.backTracking(s, 0, 0, res)
+
+        return res
+
+    def backTracking(self, s, startIndex, pointNum, res):
+        if pointNum == 3:
+            if self.isValid(s, startIndex, len(s) - 1):
+                res.append(s)
+            return
+        
+        for i in range(startIndex, len(s)):
+            if self.isValid(s, startIndex, i):
+                s = s[:i + 1] + "." + s[i + 1:]
+                pointNum += 1
+                self.backTracking(s, i + 2, pointNum, res)
+                pointNum -= 1
+                s = s[:i + 1] + s[i + 2:]
+            else:
+                break
+
+    def isValid(self, s, start, end):
+        if start > end:
+            return False
+        if s[start] == '0' and start != end:
+            return False
+        
+        num = 0
+        # for i in range(start, end + 1):
+        #     if not s[i].isdigit():
+        #         return False
+        #     num = num * 10 + int(s[i])
+            
+        #     if num > 255:
+        #         return False
+        
+        # return True
+
+        num = int(s[start:end+1])
+        return 0 <= num <= 255
+
 ```
