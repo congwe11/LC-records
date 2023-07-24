@@ -18,3 +18,12 @@ git config --global core.editor "editor name"
 git config --list
 ```
 这将显示当前的 Git 配置信息，包括用户名、邮箱、文本编辑器等。
+
+
+## 解决问题
+
+> Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054
+
+修改设置，解除ssl验证。
+
+`git config --global http.sslVerify "false"`
