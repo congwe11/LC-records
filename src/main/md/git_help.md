@@ -27,3 +27,42 @@ git config --list
 修改设置，解除ssl验证。
 
 `git config --global http.sslVerify "false"`
+
+在本地仓库`.git`文件加入如下配置
+```
+[http]
+  sslVerify = false
+[https]
+  sslVerify = false
+```
+
+设置全局代理
+```shell
+# git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+# git config --global https.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+# git config --global 协议.proxy 协议://ip地址:端口号
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+git config --global http.proxy 'socks5://127.0.0.1:7891'
+git config --global https.proxy 'socks5://127.0.0.1:7891'
+
+# 取消代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+设置仅针对某个网站的代理：比如GitHub
+```shell
+#只对github.com
+git config --global http.https://github.com.proxy http://127.0.0.1:7890
+git config --global http.https://github.com.proxy socks5://127.0.0.1:7891
+
+#取消代理
+git config --global --unset http.https://github.com.proxy
+```
+
+只在clone指定的存储库上使用代理，在其他存储库上则不需要
+```shell
+# $ git clone https://仓库地址 --config "https.proxy=proxyHost:proxyPort"
+git clone https://github.com/skywind3000/asyncrun.vim.git --config https.proxy=https://127.0.0.1:7890
+```
