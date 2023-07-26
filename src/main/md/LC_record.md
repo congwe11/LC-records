@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | []() |`模拟`| ... |
 | []() |`模拟`| ... |
-| []() |`模拟`| ... |
+| [2208. 将数组和减半的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/description/) | `贪心` `优先队列(大根堆)` | [解法](每日刷题/lc2563_统计公平数对的数目.md) |
 | [2563. 统计公平数对的数目](https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/) | `二分查找` | [解法](每日刷题/lc2563_统计公平数对的数目.md) |
 | [771. 宝石与石头](https://leetcode.cn/problems/jewels-and-stones/) |`哈希集合`| ... |
 | [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/) |`单调栈`| ... |
