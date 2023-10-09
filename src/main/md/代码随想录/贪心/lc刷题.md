@@ -48,3 +48,24 @@ class Solution:
         
         return dp[len(nums) - 1]
 ```
+
+## 122. 买卖股票的最佳时机 II
+
+贪心
+
+```Python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        # 可以买卖 多只股票，那就是要把所有的正收益都计算到
+        # 贪心
+        res = 0
+        for i in range(1, len(prices)):
+            res += max(prices[i] - prices[i-1], 0)
+
+        return res
+```
+
+
+
+
+

@@ -1,4 +1,4 @@
-package code.test;
+package code.test.source;
 
 /**
  * @author Congw
@@ -7,7 +7,7 @@ package code.test;
 public class exception {
 
     public static void main(String[] args) {
-        System.out.println(test1());
+        System.out.println(test1()); // 2
     }
     public static int test1() {
         int i = 0;

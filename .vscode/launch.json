@@ -1,0 +1,266 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SecondLargestInArray",
+            "request": "launch",
+            "mainClass": "code.test.train.SecondLargestInArray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandlingExample",
+            "request": "launch",
+            "mainClass": "code.test.source.ExceptionHandlingExample",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "equals",
+            "request": "launch",
+            "mainClass": "code.test.source.equals",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC69_mySqrt",
+            "request": "launch",
+            "mainClass": "code.D.array.LC69_mySqrt",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC102_levelOrder",
+            "request": "launch",
+            "mainClass": "code.D.bin_tree.LC102_levelOrder",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC18_fourSum",
+            "request": "launch",
+            "mainClass": "code.D.hash.LC18_fourSum",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC1047_removeDuplicates",
+            "request": "launch",
+            "mainClass": "code.D.stack_queue.LC1047_removeDuplicates",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC150_evalRPN",
+            "request": "launch",
+            "mainClass": "code.D.stack_queue.LC150_evalRPN",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC20_isValid",
+            "request": "launch",
+            "mainClass": "code.D.stack_queue.LC20_isValid",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC239_maxSlidingWindow",
+            "request": "launch",
+            "mainClass": "code.D.stack_queue.LC239_maxSlidingWindow",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC347_topKFrequent",
+            "request": "launch",
+            "mainClass": "code.D.stack_queue.LC347_topKFrequent",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC71_simplifyPath",
+            "request": "launch",
+            "mainClass": "code.D.stack_queue.LC71_simplifyPath",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LCR182_dynamicPassword",
+            "request": "launch",
+            "mainClass": "code.D.str.LCR182_dynamicPassword",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "code.Main",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Solution(1)",
+            "request": "launch",
+            "mainClass": "code.bishi.数美科技.Solution",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Solution(2)",
+            "request": "launch",
+            "mainClass": "code.bishi.柠檬微趣.Solution",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Solution(3)",
+            "request": "launch",
+            "mainClass": "code.bishi.顽石互娱.Solution",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "JZ58_reverseLeftWords",
+            "request": "launch",
+            "mainClass": "code.jzOffer.JZ58_reverseLeftWords",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC191_HammingWeight",
+            "request": "launch",
+            "mainClass": "code.leetcode.LC.LC191_HammingWeight",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "_28SwapPairs",
+            "request": "launch",
+            "mainClass": "code.leetcode.linked._28SwapPairs",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "code.leetcode.linked.main",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC1170_NumSmallerByFrequency",
+            "request": "launch",
+            "mainClass": "code.leetcode.onedayone._23.June.LC1170_NumSmallerByFrequency",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC1177_CanMakePaliQueries",
+            "request": "launch",
+            "mainClass": "code.leetcode.onedayone._23.June.LC1177_CanMakePaliQueries",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "LC1480_TreeAncestor",
+            "request": "launch",
+            "mainClass": "code.leetcode.onedayone._23.June.LC1480_TreeAncestor",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "_2465DistinctAverages",
+            "request": "launch",
+            "mainClass": "code.leetcode.onedayone._23.June._2465DistinctAverages",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "_35SearchInsert",
+            "request": "launch",
+            "mainClass": "code.leetcode.search._35SearchInsert",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "_0239MaxSlidingWindow",
+            "request": "launch",
+            "mainClass": "code.leetcode.stack_queue._0239MaxSlidingWindow",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "_1047RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "code.leetcode.stack_queue._1047RemoveDuplicates",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "_0459RepeatedSubstringPattern",
+            "request": "launch",
+            "mainClass": "code.leetcode.string._0459RepeatedSubstringPattern",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CycleArray",
+            "request": "launch",
+            "mainClass": "code.other.CycleArray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "NumAdd",
+            "request": "launch",
+            "mainClass": "code.other.NumAdd",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "view",
+            "request": "launch",
+            "mainClass": "code.other.view",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "MT",
+            "request": "launch",
+            "mainClass": "code.test.MT",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "exception",
+            "request": "launch",
+            "mainClass": "code.test.exception",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "nextArray",
+            "request": "launch",
+            "mainClass": "code.test.nextArray",
+            "projectName": "leetcode"
+        }
+    ]
+}
