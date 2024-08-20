@@ -2,7 +2,7 @@ import java.util.PriorityQueue;
 
 class Solution {
 
-// 现在是r-branch
+// 现在是3-branch
 
     public static int halveArray(int[] nums) {
         PriorityQueue<Double> pq = new PriorityQueue<Double>((a, b) -> b.compareTo(a));
