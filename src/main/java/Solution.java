@@ -2,12 +2,11 @@ import java.util.PriorityQueue;
 
 class Solution {
 
-
-// 冲突解决啦，我是master
+// 现在是3-branch
 
     public static int halveArray(int[] nums) {
         PriorityQueue<Double> pq = new PriorityQueue<Double>((a, b) -> b.compareTo(a));
-        double sum = 1;
+        double sum = 0;
         for (int num : nums) {
             pq.offer((double) num);
             sum += num;
