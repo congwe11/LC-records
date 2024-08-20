@@ -2,8 +2,8 @@ import java.util.PriorityQueue;
 
 class Solution {
 
-// 现在是r-branch
-// 我是r-branch，别改我的代码
+
+// 冲突解决啦，我是master
 
     public static int halveArray(int[] nums) {
         PriorityQueue<Double> pq = new PriorityQueue<Double>((a, b) -> b.compareTo(a));
